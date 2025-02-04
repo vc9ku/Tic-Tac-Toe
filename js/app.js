@@ -31,3 +31,4 @@ $startGame.addEventListener("click", function(e) {
 $startGame.addEventListener("click", function(e) {
     $displayGame.classList.remove("is-hidden")
 })
+ 
