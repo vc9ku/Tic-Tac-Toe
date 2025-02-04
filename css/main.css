@@ -28,20 +28,16 @@ body {
     min-height: 100vh;
 }
 
-/* .display-game {
-    frameborder="0";
-    marginheight="0" 
-    marginwidth="0" 
-    width="100%" 
-    height="100%"
-} */
-
-.is-hidden {
-    display: none;
+.fill-cross {
+    fill: var(--turquoise);
 }
 
-.is-shown {
-    display: contents;
+.fill-circle {
+    fill: var(--golden-tainoi);
+}
+
+.hidden {
+    display: none;
 }
 
 .new-game-screen {
