@@ -175,10 +175,10 @@
         </ul>
       </header>
       <div class="game-screen-grid">
-        <div class="game-screen-grid__cell"></div>
-        <div class="game-screen-grid__cell"></div>
-        <div class="game-screen-grid__cell"></div>
-        <div class="game-screen-grid__cell">
+        <div class="game-screen-grid__cell" id="first-box"></div>
+        <div class="game-screen-grid__cell" id="second-box"></div>
+        <div class="game-screen-grid__cell" id="third-box"></div>
+        <div class="game-screen-grid__cell" id="fourth-box">
           <svg
             width="40"
             height="40"
@@ -194,7 +194,7 @@
             />
           </svg>
         </div>
-        <div class="game-screen-grid__cell">
+        <div class="game-screen-grid__cell" id="fifth-box">
           <svg
             width="40"
             height="40"
@@ -210,9 +210,9 @@
             />
           </svg>
         </div>
-        <div class="game-screen-grid__cell"></div>
-        <div class="game-screen-grid__cell"></div>
-        <div class="game-screen-grid__cell">
+        <div class="game-screen-grid__cell" id="sixth-box"></div>
+        <div class="game-screen-grid__cell" id="seven-box"></div>
+        <div class="game-screen-grid__cell" id="height-box">
           <svg
             width="40"
             height="40"
@@ -228,7 +228,7 @@
             />
           </svg>
         </div>
-        <div class="game-screen-grid__cell">
+        <div class="game-screen-grid__cell" id="nine-box">
           <svg
             width="40"
             height="40"
@@ -248,7 +248,7 @@
       <ul class="game-screen-score">
         <li class="game-screen-score__cell">
           <span class="game-screen-score__player">X (you)</span>
-          <span class="game-screen-score__score-number">14</span>
+          <span class="game-screen-score__score-number" id="x-player-count">14</span>
         </li>
         <li class="game-screen-score__cell game-screen-score__cell--secondary">
           <span class="game-screen-score__player">ties</span>
@@ -256,7 +256,7 @@
         </li>
         <li class="game-screen-score__cell game-screen-score__cell--tertiary">
           <span class="game-screen-score__player">O (cpu)</span>
-          <span class="game-screen-score__score-number">11</span>
+          <span class="game-screen-score__score-number" id="o-player-count">11</span>
         </li>
       </ul>
     </div>
