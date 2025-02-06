@@ -139,6 +139,11 @@ body {
     text-transform: uppercase;
 }
 
+.icon-sizing {
+    width: 24px;
+    height: 24px;
+}
+
 .new-game-screen-new-game-buttons__button--secondary {
     background-color: var(--turquoise-blue);
     border-bottom-color: var(--turquoise);

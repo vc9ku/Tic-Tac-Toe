@@ -32,6 +32,10 @@
     font-family: var(--font-family);
 }
 
+.hidden {
+    display: none;
+}
+
 .game-screen-end-game-modal__wrapper {
     display: flex;
     align-items: center;
@@ -86,4 +90,5 @@
 .game-screen-end-game-modal-buttons__button--secondary {
     background-color: var(--golden-tainoi);
     border-bottom-color: var(--saffron);
+    cursor: pointer;
 }
